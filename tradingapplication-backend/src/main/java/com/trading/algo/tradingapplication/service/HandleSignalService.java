@@ -5,5 +5,9 @@ import org.springframework.stereotype.Service;
 @Service
 public class HandleSignalService {
 	
+	public void handleSignal(int signal) {
+		
+	}
+	
 
 }
