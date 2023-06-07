@@ -26,6 +26,10 @@ public class TradingApplication {
 		signalMap.put(2, new SignalServiceHandlerTwo());
 		signalMap.put(3, new SignalServiceHandlerThree());
 	}
+	
+	public static Map<Integer, SignalServiceHandler> getSignalMap(){
+		return signalMap;
+	}
 
 }
 
